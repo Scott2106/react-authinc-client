@@ -1,0 +1,48 @@
+{
+  "name": "@scott-soe-zaw/authinc-react-sdk",
+  "version": "1.0.1",
+  "description": "React Authentication Functionalities For AuthInc Client",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scott2106/react-authinc-client.git"
+  },
+  "author": "Soe Zaw Aung, (Scott)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scott2106/react-authinc-client/issues"
+  },
+  "homepage": "https://github.com/Scott2106/react-authinc-client#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "postcss": "^8.4.39",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.5"
+  },
+  "dependencies": {
+    "axios": "^1.3.1",
+    "prop-types": "^15.8.1"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "axios": "^1.3.1",
+    "prop-types": "^15.8.1"
+  }
+}
